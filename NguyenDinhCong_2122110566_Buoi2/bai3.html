@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển đổi chuỗi thành URL thân thiện</title>
+    <style>
+        body {
+            background-color: rgb(200, 249, 173);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .output {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text">Chuyển đổi chuỗi thành URL thân thiện</h1>
+
+        <input type="text" id="inputString" placeholder="Nhập chuỗi">
+        <button onclick="convertString()">Chuyển đổi</button>
+
+        <div id="output" class="output"></div>
+    </div>
+
+    <script src="bai3.js"></script>
+</body>
+</html>
