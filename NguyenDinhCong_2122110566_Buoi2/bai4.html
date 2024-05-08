@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(159, 165, 155);
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .p{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ứng dụng tính toán toán học</h1>
+        <input type="number" id="so1" placeholder="Nhập số thứ nhất">
+        <input type="number" id="so2" placeholder="Nhập số thứ hai">
+        <select id="pheptoan">
+            <option value="+">Cộng</option>
+            <option value="-">Trừ</option>
+            <option value="*">Nhân</option>
+            <option value="/">Chia</option>
+            <option value="sqrt">Căn bậc hai</option>
+            <option value="pow">Lũy thừa</option>
+        </select>
+        <button onclick="tinhToan()">=</button>
+        <p id="output"></p>
+    </div>
+    <script src="bai4.js"></script>
+</body>
+</html>
