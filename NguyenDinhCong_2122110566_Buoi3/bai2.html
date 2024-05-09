@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      h2{
+        text-align: center;
+      }
+      form{
+        text-align: center;
+      }
+      body {
+          background-color: rgb(162, 211, 245);
+        }
+      .container {
+          max-width: 500px;
+          margin: 0 auto;
+          padding: 20px;
+          border: 1px solid #090808;
+        }
+       #monHocList {
+          list-style-type: none;
+          padding: 0;
+        }
+
+        #monHocList li {
+          margin-bottom: 5px;
+        }
+
+        .deleteButton {
+          cursor: pointer;
+          color: red;
+          margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Thêm môn học</h2>
+    <form>
+        <label for="monHocInput">Tên môn học:</label>
+        <input type="text" id="monHocInput">
+        <button type="button" onclick="addMonHoc()">Thêm</button>
+    </form>
+    <h2>Danh sách môn học</h2>
+    <ul id="monHocList">
+        <!-- Danh sách môn học sẽ được thêm vào đây -->
+    </ul>
+  </div>
+  <script src="bai2.js"></script>
+</body>
+</html>
