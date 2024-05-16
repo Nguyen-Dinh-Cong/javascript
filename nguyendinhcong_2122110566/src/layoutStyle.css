@@ -25,7 +25,6 @@ main, header{
 button{
     border:hidden;
     padding: 5px;
-    border-radius: 10px;
 }
 .slide-text1{
     position: absolute; 
@@ -42,10 +41,10 @@ button{
     transform: translate(-50%, -50%);  
     color: rgb(0, 0, 0); 
 }
-.home-polyci{
+.section-chinhsach{
     text-align: center;
 }
-.home-policy a{
+.section-chinhsach a{
     text-decoration: none;
     text-align: center;
     color:black;
